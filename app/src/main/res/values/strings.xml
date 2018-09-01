@@ -37,4 +37,6 @@
     <string name="title_activity_activity_c">Atividade C</string>
     <string name="title_activity_dialog">Diálogo</string>
     <string name="title_activity">Ciclo de Vida da Atividade</string>
+    <string name="activity_b">Atividade B</string>
+    <string name="activity_c">Atividade C</string>
 </resources>

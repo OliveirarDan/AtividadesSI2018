@@ -7,7 +7,7 @@
     android:padding="8dp"
     android:background="@color/dark_green"
     android:orientation="vertical"
-    tools:context="br.usjt.sin.progmulti.atividadessi2018.MainActivity">
+    tools:context="br.usjt.sin.progmulti.atividadessi2018.ActivityA">
 
     <TextView
         android:layout_width="match_parent"
@@ -27,22 +27,22 @@
             android:id="@+id/btn_start_b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_start_b_label"
-            android:onClick="startActivityB"/>
+            android:text="@string/btn_start_a_label"
+            android:onClick="startActivityA"/>
 
         <Button
             android:id="@+id/btn_start_c"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_start_c_label"
+            android:text="@string/btn_start_b_label"
             android:layout_toRightOf="@id/btn_start_b"
-            android:onClick="startActivityC"/>
+            android:onClick="startActivityB"/>
 
         <Button
             android:id="@+id/btn_finish_a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_finish_a_label"
+            android:text="@string/btn_finish_c_label"
             android:layout_toRightOf="@id/btn_start_c"
             android:onClick="finishActivityA"/>
 

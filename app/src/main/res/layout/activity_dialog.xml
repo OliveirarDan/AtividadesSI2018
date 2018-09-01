@@ -7,7 +7,7 @@
     android:layout_height="120dp"
     android:background="@color/dark_yellow"
     android:padding="12dp"
-    tools:context="br.usjt.sin.progmulti.atividadessi2018.MainActivity">
+    tools:context="br.usjt.sin.progmulti.atividadessi2018.DialogActivity">
 
     <TextView
         android:layout_width="match_parent"
